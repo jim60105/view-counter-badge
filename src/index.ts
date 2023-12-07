@@ -33,7 +33,7 @@ export default {
     console.log('Count', count);
 
     // Get the query parameters
-    let params = readQueryParams(request);
+    const params = readQueryParams(request);
     console.log('Params', params);
 
     // Generate the svg string
